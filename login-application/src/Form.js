@@ -24,9 +24,10 @@ function Form() {
 
         if(!inputData.name || !inputData.password)
         {
-            alert("ALL FILIED IS MANDETORY")
+            alert("ALL FIELD ARE MANDATORY")
         }
-        else{
+        else
+        {
             setFlag(true)
         }
     }
